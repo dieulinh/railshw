@@ -17,6 +17,23 @@
         <li><%= link_to t('.add_post'), new_post_path %></li>
       </ul>
 
+      <ul class="nav navbar-nav navbar-right">
+      <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+          <%= t('menu.languages.lang') %>
+          <span class="caret"></span>
+        </a>
+        <ul class="dropdown-menu" role="menu">
+          <li>
+            <%= link_to t('menu.languages.en'), change_locale_path(:en) %>
+          </li>
+          <li>
+            <%= link_to t('menu.languages.vi'), change_locale_path(:vi) %>
+          </li>
+        </ul>
+      </li>
+    </ul>
+
     </div>
   </div>
  
