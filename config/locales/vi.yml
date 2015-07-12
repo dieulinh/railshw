@@ -13,6 +13,8 @@ vi:
             title:
               blank: "không thể để trống."
   menu:
+    all_posts: "Tất cả bài"
+    new_post: "Thêm bài viết"
     languages:
       lang: "Ngôn Ngữ"
       vi: "Tiếng Việt"

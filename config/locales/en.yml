@@ -34,6 +34,8 @@ en:
             title:
               blank: "this field must be filled up."
   menu:
+    all_posts: "All Posts"
+    new_post: "New Post"
     languages:
       lang: "Language"
       vi: "Vietnamese"
