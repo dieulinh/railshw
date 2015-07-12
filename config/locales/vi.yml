@@ -1,5 +1,23 @@
 vi:
+  activerecord:
+    models:
+      post: "Bài viết"
+    attributes:
+      post:
+        title: "Tiêu đề"
+        body: 'Nội dung của bài viết'
+    errors:
+      models:
+        post:
+          attributes:
+            title:
+              blank: "không thể để trống."
+  menu:
+    languages:
+      lang: "Ngôn Ngữ"
+      vi: "Tiếng Việt"
+      en: "Tiếng Anh"
   posts: 
     index:
-      title: 'Danh sách các bài viết'
-      description: 'Danh sách các bài viết hiển thị bằng tiếng Việt'
+      all_post: 'Danh sách các bài viết'
+      body: 'Nội dung của bài viết'

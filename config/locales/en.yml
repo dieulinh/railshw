@@ -20,7 +20,18 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
+  activerecord:
+    errors:
+      models:
+        post:
+          attributes:
+            title:
+              blank: "this field must be filled up."
+  menu:
+    languages:
+      lang: "Language"
+      vi: "Vietnamese"
+      en: "English"
   posts: 
     index:
-      title: 'List of posts'
-      description: 'List of Posts in English'
+      all_post: 'Post List'
