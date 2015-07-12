@@ -21,6 +21,12 @@
 
 en:
   activerecord:
+    models:
+      post: "Post"
+    attributes:
+      post:
+        title: "Title"
+        body: 'Body'
     errors:
       models:
         post:
